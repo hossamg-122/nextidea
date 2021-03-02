@@ -1,0 +1,32 @@
+html {
+  font-size: 16px;
+
+  @media (max-width : 991px) {
+    font-size: 14px;
+  }
+
+  @media (max-width : 768px) {
+    font-size: 12px;
+  }
+  
+}
+
+body {
+   margin: 0rem;
+  }
+
+
+header{
+  background-color: rgba(0, 0, 0, 0.13);
+  padding : 1.5rem 0;
+  a{
+    color: darkred;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.13);
+  padding : 1.5rem 0
+}
